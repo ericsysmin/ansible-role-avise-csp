@@ -1,8 +1,7 @@
 - hosts: all
   gather_facts: false
   roles:
-    - role: avinetworks.avise
-      se_deploy_type: csp
+    - role: avinetworks.avise-csp
       se_csp_user: admin
       se_csp_password: password
       se_master_ctl_ip: 10.128.2.20

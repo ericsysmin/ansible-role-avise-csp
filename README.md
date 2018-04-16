@@ -68,8 +68,7 @@ These are only marked required, for when you are using CSP Deployment.
 - hosts: csp_devices
   gather_facts: false
   roles:
-    - role: avinetworks.avise
-      se_deploy_type: csp
+    - role: avinetworks.avise-csp
       se_csp_user: admin
       se_csp_password: password
       se_master_ctl_ip: 10.128.2.20
@@ -108,7 +107,7 @@ These are only marked required, for when you are using CSP Deployment.
 - hosts: csp_devices
   gather_facts: false
   roles:
-    - role: avinetworks.avise
+    - role: avinetworks.avise-csp
       se_autoregister: false
       se_auth_token: "auth token here"
       se_cloud_name: Default-Cloud
