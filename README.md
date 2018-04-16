@@ -11,7 +11,7 @@ Using this module you are able to install the Avi Vantage Service Engine, to you
 ## Role Dependencies
 
 - avinetworks.avisdk
-  - To install these use the following command: `ansible-galaxy install -f avinetworks.avisdk`  
+  - To install these use the following command: `ansible-galaxy install avinetworks.avisdk`  
 
 ## Role Variables
 
